@@ -1,6 +1,6 @@
 # Summary
 
-The South_Levantine_Arabic-MADAR treebank consists of 100 manually-annotated sentences taken from the [MADAR](https://camel.abudhabi.nyu.edu/madar/) (Multi-Arabic Dialect Applications and Resources) project. It was created as part of the "Language Technology: Research and Development" course at Uppsala University. 
+The South_Levantine_Arabic-MADAR treebank consists of 100 manually-annotated sentences taken from the [MADAR](https://camel.abudhabi.nyu.edu/madar/) (Multi-Arabic Dialect Applications and Resources) project. 
 
 TO-DO: Add 20 annotated sentences from CCC as a train set.
 
@@ -10,6 +10,7 @@ The treebank contains 100 manually annotated sentences in the South Levantine di
 
 Sentences in the treebank can best be described as short conversational tourism-related texts.
 
+The treebank was created as part of the "Language Technology: Research and Development" course at Uppsala University. You can view the report here: ["Parsing Low-Resource Levantine Arabic: Annotation Projection versus Small-Sized Annotated Data"](https://drive.google.com/file/d/1LJF00GqSiMF6lZ_vtJflh22-V7e065xp/view?usp=sharing). The report describes two methods for parsing low-resource Levantine Arabic using the treebank provided in this repo (but split instead into three sets: train, dev, and test). 
 
 # Acknowledgments
 
