@@ -6,7 +6,9 @@ TO-DO: Add 20 annotated sentences from CCC as a train set.
 
 # Introduction
 
-...
+The treebank contains 100 manually annotated sentences in the South Levantine dialect primarily spoken in Amman. The sentences were taken from the "MADAR Parallel Corpus Dataset" (Bouamor et al., 2018) which consists of parallel texts translated into 25 dialects spoken in 25 diferent cities in the Arab World. The original texts were taken from the Basic Traveling Expression Corpus (BTEC) (described in Takezawa et al., 2007).
+
+Sentences in the treebank can best be described as short conversational tourism-related texts.
 
 
 # Acknowledgments
@@ -16,6 +18,8 @@ Big thanks to Houda Bouamor, Nizar Habash, and the MADAR project team for creati
 ## References
 
 * Bouamor, Houda, Nizar Habash, Mohammad Salameh, Wajdi Zaghouani, Owen Rambow, Dana Abdulrahim, Ossama Obeid, Salam Khalifa, Fadhl Eryani, Alexander Erdmann and Kemal Oflazer. The MADAR Arabic Dialect Corpus and Lexicon. In Proceedings of the International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan, 2018.
+
+* Takezawa, Toshiyuki, et al. "Multilingual spoken language corpus development for communication research." International Journal of Computational Linguistics & Chinese Language Processing, Volume 12, Number 3, September 2007: Special Issue on Invited Papers from ISCSLP 2006. 2007.
 
 
 # Changelog
