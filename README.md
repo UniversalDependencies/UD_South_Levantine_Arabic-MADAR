@@ -28,14 +28,14 @@ TO-DO: Add 20 annotated sentences from CCC as a train set.
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction news
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Genre: spoken social
+Lemmas: manual native
+UPOS: manual native
+XPOS: not available
+Features: not available
+Relations: manual native
 Contributors: Zahra, Shorouq
-Contributing: elsewhere
+Contributing: here
 Contact: shorouqjzahra@gmail.com
 ===============================================================================
 </pre>
