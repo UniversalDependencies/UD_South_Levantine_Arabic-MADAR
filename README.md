@@ -11,7 +11,7 @@ TO-DO: Add 20 annotated sentences from CCC as a train set.
 
 # Acknowledgments
 
-...
+Big thanks to Nizar Habash and the MADAR project team for creating the [multi-dialect parallel corpus](https://camel.abudhabi.nyu.edu/madar-parallel-corpus/) and allowing me to use the Amman portion of it prior to official release. 
 
 ## References
 
