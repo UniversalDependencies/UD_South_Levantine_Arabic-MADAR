@@ -227,7 +227,7 @@
 # newpar
 # sent_id = 17
 # text = بقدر ألمسه؟
-1	بقدر	قدر	AUX	_	_	2	aux	_	_
+1	بقدر	قِدِر	AUX	_	_	2	aux	_	_
 2	ألمس	لَمَس	VERB	_	_	0	root	_	SpaceAfter=No
 3	ه	هُوَ	ADJ	_	_	2	obj	_	SpaceAfter=No
 4	؟	؟	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
@@ -517,10 +517,10 @@
 
 # newpar
 # sent_id = 44
-# text = أكيد. راج نكون مبسوطين نعمل هيك.
+# text = أكيد. راح نكون مبسوطين نعمل هيك.
 1	أكيد	اكيد	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
-3	راج	راح	AUX	_	_	4	aux	_	_
+3	راح	راح	AUX	_	_	4	aux	_	_
 4	نكون	كان	VERB	_	_	0	root	_	_
 5	مبسوطين	مبسوط	ADJ	_	_	4	xcomp	_	_
 6	نعمل	عِمِل	VERB	_	_	5	xcomp	_	_
@@ -647,7 +647,7 @@
 4	نروح	راح	VERB	_	_	8	dep	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 6	أنا	أنا	PRON	_	_	8	nsubj	_	_
-7	بقدر	قدر	AUX	_	_	8	aux	_	_
+7	بقدر	قِدِر	AUX	_	_	8	aux	_	_
 8	أساعد	ساعَد	VERB	_	_	0	root	_	SpaceAfter=No
 9	ك	هُوَ	PROPN	_	_	8	obj	_	_
 10	ب	بِ	ADP	_	_	11	case	_	SpaceAfter=No
