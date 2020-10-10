@@ -155,7 +155,7 @@
 # newpar
 # sent_id = 12
 # text = راح أنزل بالفندق حوالي الساعة تسعة بالليل.
-1	راح	رَاح	AUX	_	_	2	aux	_	_
+1	راح	راح	AUX	_	_	2	aux	_	_
 2	أنزل	نِزِل	VERB	_	_	0	root	_	_
 3	ب	بِ	ADP	_	_	4	case	_	SpaceAfter=No
 4	الفندق	فندق	NOUN	_	_	2	nmod	_	_
@@ -206,9 +206,9 @@
 3	محطة	مَحَطَّة	NOUN	_	_	5	obj	_	_
 4	لازم	لَازِم	AUX	_	_	5	aux	_	_
 5	أنزل	اِنَزَل	VERB	_	_	0	root	_	_
-6	عشان	عشان	PART	_	_	7	mark	_	_
+6	عشان	عشان	ADP	_	_	7	mark	_	_
 7	أروح	راح	VERB	_	_	5	xcomp	_	_
-8	على	عَلَى	PART	_	_	9	case	_	_
+8	على	عَلَى	ADJ	_	_	9	case	_	_
 9	امباير	إمِباير	PROPN	_	_	7	obl	_	_
 10	ستيت	ستيت	PROPN	_	_	9	flat:foreign	_	_
 11	بيلدينج	بيلدينج	PRON	_	_	9	flat:foreign	_	SpaceAfter=No
@@ -217,7 +217,7 @@
 # newpar
 # sent_id = 16
 # text = عم بدور على اشي أنيق.
-1	عم	عَم	PART	_	_	2	mark	_	_
+1	عم	عَم	AUX	_	_	2	aux	_	_
 2	بدور	دَوّر	VERB	_	_	0	root	_	_
 3	على	عَلَى	ADP	_	_	4	case	_	_
 4	اشي	اشي	NOUN	_	_	2	obl:arg	_	_
@@ -235,7 +235,7 @@
 # newpar
 # sent_id = 18
 # text = راح آخد صورة لجاك دانييلز.
-1	راح	رَاح	AUX	_	_	2	aux	_	_
+1	راح	راح	AUX	_	_	2	aux	_	_
 2	آخد	آخُد	VERB	_	_	0	root	_	_
 3	صورة	صُورَة	NOUN	_	_	2	obj	_	_
 4	ل	لِ	ADP	_	_	5	case	_	SpaceAfter=No
@@ -293,7 +293,7 @@
 # sent_id = 23
 # text = متى راح يتحرك القطار الجاي على بوسطن؟
 1	متى	مَتَى	ADV	_	_	3	advmod	_	_
-2	راح	رَاح	AUX	_	_	3	aux	_	_
+2	راح	راح	AUX	_	_	3	aux	_	_
 3	يتحرك	تَحَرَّك	VERB	_	_	0	root	_	_
 4	القطار	قِطَار	NOUN	_	_	3	nsubj	_	_
 5	الجاي	جاي	ADJ	_	_	4	amod	_	_
@@ -304,7 +304,7 @@
 # newpar
 # sent_id = 24
 # text = راح أنزل من هون على مركز روكفلر؟
-1	راح	رَاح	AUX	_	_	2	aux	_	_
+1	راح	راح	AUX	_	_	2	aux	_	_
 2	أنزل	نِزِل	VERB	_	_	0	root	_	_
 3	من	مِن	ADV	_	_	4	case	_	_
 4	هون	هون	ADV	_	_	2	advmod	_	_
@@ -379,9 +379,9 @@
 1	بس	بس	CCONJ	_	_	3	cc	_	_
 2	أنا	آنَا	PRON	_	_	3	nsubj	_	_
 3	عند	عند	PRON	_	_	0	root	_	SpaceAfter=No
-4	ي	هُوَ	PRON	_	_	3	nsubj:poss	_	_
+4	ي	هُوَ	PRON	_	_	3	nsubj	_	_
 5	موعد	مَوعِد	NOUN	_	_	3	obl:arg	_	_
-6	عشان	عشان	PART	_	_	7	mark	_	_
+6	عشان	عشان	ADP	_	_	7	mark	_	_
 7	أشوف	شاف	VERB	_	_	5	acl	_	SpaceAfter=No
 8	ها	هُوَ	PRON	_	_	7	obj	_	_
 9	الساعة	سَاعَة	NOUN	_	_	7	iobj	_	_
@@ -464,7 +464,7 @@
 # newpar
 # sent_id = 39
 # text = أنا بدي أعرف كم لازم أترك بغشيش.
-1	أنا	آنَا	PART	_	_	2	nsubj	_	_
+1	أنا	آنَا	PRON	_	_	2	nsubj	_	_
 2	بدي	بدّ	VERB	_	_	0	root	_	_
 3	أعرف	عِرِف	VERB	_	_	2	ccomp	_	_
 4	كم	كَم	ADV	_	_	3	advmod	_	_
@@ -536,7 +536,7 @@
 4	ماليزي	ماليزي	ADJ	_	_	3	amod	_	_
 5	كوميدي	كوميدي	ADJ	_	_	3	amod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
-7	راح	رَاح	AUX	_	_	8	aux	_	_
+7	راح	راح	AUX	_	_	8	aux	_	_
 8	أشتري	اشتَرى	VERB	_	_	0	root	_	_
 9	واحد	وَاحِد	NUM	_	_	8	obj	_	_
 10	عشان	عشان	ADP	_	_	11	mark	_	_
@@ -691,7 +691,7 @@
 1	اه	اه	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	،	،	PUNCT	_	_	1	punct	_	_
 3	أظن	أَظَن	VERB	_	_	0	root	_	_
-4	راح	رَاح	AUX	_	_	5	aux	_	_
+4	راح	راح	AUX	_	_	5	aux	_	_
 5	أستنى	أَستنِيّ	VERB	_	_	3	ccomp	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n
 
@@ -701,7 +701,7 @@
 1	على	عَلَى	ADP	_	_	3	case	_	_
 2	أي	أَيّ	DET	_	_	3	det	_	_
 3	ساعة	سَاعَة	NOUN	_	_	5	obl	_	_
-4	راح	رَاح	AUX	_	_	5	aux	_	_
+4	راح	راح	AUX	_	_	5	aux	_	_
 5	نوصل	وَصَل	VERB	_	_	0	root	_	_
 6	على	عَلَى	ADP	_	_	7	case	_	_
 7	لوس	لُوس	PROPN	_	_	5	obl	_	_
@@ -711,7 +711,7 @@
 # newpar
 # sent_id = 58
 # text = راح أضل أستنى لعند ما يفضى الترس.
-1	راح	رَاح	AUX	_	_	2	aux	_	_
+1	راح	راح	AUX	_	_	2	aux	_	_
 2	أضل	ضَل	VERB	_	_	0	root	_	_
 3	أستنى	استنى	VERB	_	_	2	ccomp	_	_
 4	ل	لِ	ADV	_	_	5	advmod:emph	_	SpaceAfter=No
@@ -883,7 +883,7 @@
 # text = ممكن تحكيلي الأماكن المهمة هون؟
 1	ممكن	مُمكِن	AUX	_	_	2	aux	_	_
 2	تحكي	حَكَى	VERB	_	_	0	root	_	SpaceAfter=No
-3	ل	لِ	PART	_	_	4	case	_	SpaceAfter=No
+3	ل	لِ	ADP	_	_	4	case	_	SpaceAfter=No
 4	ي	هُوَ	NOUN	_	_	2	obj	_	_
 5	الأماكن	مَكَان	NOUN	_	_	2	obj	_	_
 6	المهمة	مَهَمَّة	ADJ	_	_	5	amod	_	_
@@ -1027,7 +1027,7 @@
 # text = طيب. راح أتصل فيك بس يكونوا جاهزيين.
 1	طيب	طَيِّب	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
-3	راح	رَاح	AUX	_	_	4	aux	_	_
+3	راح	راح	AUX	_	_	4	aux	_	_
 4	أتصل	إتَّصَل	VERB	_	_	0	root	_	_
 5	في	فِي	ADP	_	_	6	case	_	SpaceAfter=No
 6	ك	هُوَ	PRON	_	_	4	obl	_	_
