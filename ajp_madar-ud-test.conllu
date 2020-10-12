@@ -208,7 +208,7 @@
 5	أنزل	اِنَزَل	VERB	_	_	0	root	_	_
 6	عشان	عشان	ADP	_	_	7	mark	_	_
 7	أروح	راح	VERB	_	_	5	xcomp	_	_
-8	على	عَلَى	ADJ	_	_	9	case	_	_
+8	على	عَلَى	ADP	_	_	9	case	_	_
 9	امباير	إمِباير	PROPN	_	_	7	obl	_	_
 10	ستيت	ستيت	PROPN	_	_	9	flat:foreign	_	_
 11	بيلدينج	بيلدينج	PRON	_	_	9	flat:foreign	_	SpaceAfter=No
