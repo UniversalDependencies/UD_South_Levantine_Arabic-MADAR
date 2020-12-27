@@ -1056,6 +1056,7 @@
 5	بسكر	سَكّر	VERB	_	_	0	root	_	SpaceAfter=No
 6	؟	؟	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 89
 # text = جمعهم عند البوابة.
 1	جمع	جَمّع	VERB	_	_	0	root	_	SpaceAfter=No
