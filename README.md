@@ -35,6 +35,7 @@ Big thanks to Houda Bouamor, Nizar Habash, and the MADAR project team for creati
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken social
 Lemmas: manual native
 UPOS: manual native
