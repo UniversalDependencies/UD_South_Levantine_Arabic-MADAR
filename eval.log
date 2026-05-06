@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_South_Levantine_Arabic-MADAR:
-commit 3c7281261bb28018148bd816c79813095cc3771b
-Merge: 0c64685 19ad40a
+commit ce9037fbf72ff54006ff1186a0e07ccd93a2a94b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:51:18 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ajp_madar'
 Language code (from CoNLL-U file name) = 'ajp'
@@ -25,25 +25,28 @@ Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ajp --max-err=10 UD_South_Levantine_Arabic-MADAR/ajp_madar-ud-test.conllu
-[Line 48 Sent 4]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'مجفف') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 146 Sent 11]: [L3 Syntax too-many-objects] Multiple direct objects [6, 8] ('هم', 'واحد') under the predicate 'نوزن'.
-[Line 172 Sent 13]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('كاثي', 'حفلة') under the predicate 'بتعرف'.
-[Line 213 Sent 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 212 Sent 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 214 Sent 15]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 212 Sent 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 243 Sent 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 242 Sent 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 332 Sent 26]: [L3 Syntax too-many-objects] Multiple direct objects [4, 6] ('ني', 'دليل') under the predicate 'ساعد'.
-[Line 708 Sent 57]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 707 Sent 57]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 874 Sent 70]: [L3 Syntax leaf-det] 'det' not expected to have children (9:اللي:det --> 12:سنوات:acl)
-[Line 872 Sent 70]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'لتغيرات') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 885 Sent 71]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('ي', 'الأماكن') under the predicate 'تحكي'.
-...suppressing further errors regarding Warning
-Syntax errors: 5
-Warnings: 15
-*** FAILED *** with 5 errors
+[Line 48 Sent 4]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'مجفف') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 146 Sent 11]: [L3 SYNTAX too-many-objects] Multiple direct objects [6, 8] ('هم', 'واحد') under the predicate 'نوزن'.
+[Line 172 Sent 13]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 5] ('كاثي', 'حفلة') under the predicate 'بتعرف'.
+[Line 213 Sent 15]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 212 Sent 15]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 214 Sent 15]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 212 Sent 15]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 243 Sent 18]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 242 Sent 18]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 332 Sent 26]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 6] ('ني', 'دليل') under the predicate 'ساعد'.
+[Line 708 Sent 57]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 707 Sent 57]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 874 Sent 70]: [L3 SYNTAX leaf-det] 'det' not expected to have children (9:اللي:det --> 12:سنوات:acl)
+[Line 872 Sent 70]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'لتغيرات') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 885 Sent 71]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 5] ('ي', 'الأماكن') under the predicate 'تحكي'.
+[Line 990 Sent 82]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'نسخة') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1046 Sent 87]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1045 Sent 87]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 12
+SYNTAX errors: 8
+*** FAILED *** with 8 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
