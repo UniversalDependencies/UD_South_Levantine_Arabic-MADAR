@@ -45,7 +45,7 @@
 1	بدي	بدّ	VERB	_	_	0	root	_	_
 2	مجفف	مجفف	NOUN	_	_	1	obj	_	_
 3	ل	ل	ADP	_	_	4	case	_	SpaceAfter=No
-4	لشعر	شعر	NOUN	_	_	2	obl	_	SpaceAfter=No
+4	لشعر	شعر	NOUN	_	_	2	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
 # newpar
@@ -869,7 +869,7 @@
 7	ل	لِ	ADP	_	_	8	case	_	SpaceAfter=No
 8	لتغيرات	تغير	NOUN	_	_	6	obl	_	_
 9	اللي	اللي	DET	_	_	10	det	_	_
-10	صارت	صَار	VERB	_	_	8	obl:arg	_	_
+10	صارت	صَار	VERB	_	_	8	advcl	_	_
 11	في	فِي	ADP	_	_	12	case	_	_
 12	سنوات	سَنَة	NOUN	_	_	9	acl	_	_
 13	الألف	أَلف	NUM	_	_	12	nummod	_	_
@@ -987,7 +987,7 @@
 1	بدي	بدّ	VERB	_	_	0	root	_	_
 2	نسخة	نُسخَة	NOUN	_	_	1	obj	_	_
 3	عن	عَن	ADP	_	_	4	case	_	_
-4	تقرير	تَقرِير	NOUN	_	_	2	obl:arg	_	_
+4	تقرير	تَقرِير	NOUN	_	_	2	nmod	_	_
 5	السرقة	سَرِقَة	NOUN	_	_	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n\n
 
